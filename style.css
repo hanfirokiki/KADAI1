@@ -15,6 +15,8 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .main-box {
@@ -23,6 +25,7 @@ main {
   padding: 10px;
   position: relative;
   background-color: #eee;
+  
 }
 
 .main-box:last-child {
