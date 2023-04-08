@@ -13,7 +13,7 @@ header {
 
 main {
   width: 960px;
-  margin: 50px auto;
+  margin: 0, auto;
   display: flex;
   justify-content: space-evenly;
   justify-content: center;
@@ -25,7 +25,7 @@ main {
   padding: 10px;
   position: relative;
   background-color: #eee;
-  
+
 }
 
 .main-box:last-child {
@@ -88,7 +88,13 @@ footer {
 
   .main-box{
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-bottom: 20px;
   }
-}
+
+  .main-box:first-child {
+    margin-top: 50px;
+  }
+  .main-box:last-child {
+    margin-bottom: 50px;
+  }
