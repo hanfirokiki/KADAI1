@@ -29,7 +29,7 @@ main {
 }
 
 .main-box:last-child {
-  margin-right: 0;
+  margin-right: 0 auto;
 }
 
 .main-img1 {
@@ -88,7 +88,7 @@ footer {
 
   .main-box{
     width: 90%;
+    margin: 0 auto; 
     margin-bottom: 20px;
-    
   }
 }
